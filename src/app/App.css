@@ -110,6 +110,17 @@ img {
     padding: 0 14px;
 }
 
+.swiper {
+    position: relative;
+    overflow: hidden;
+    overflow: clip;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    /* Fix of Webkit flickering */
+    z-index: 1;
+}
+
 @media (max-width: 768px) {
     #home {
         padding: 0;
