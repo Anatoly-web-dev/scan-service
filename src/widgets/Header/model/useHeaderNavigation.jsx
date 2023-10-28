@@ -1,7 +1,7 @@
 import {useContext} from 'react';
 import {GlobalStates} from '/src/app/model/GlobalStatesProvider';
 import {useNavigate} from 'react-router-dom';
-import {smoothLink} from '../lib/smoothLink';
+import {smoothLink} from '/src/app/lib/smoothLink';
 
 export function useHeaderNavigation() {
     const context = useContext(GlobalStates);

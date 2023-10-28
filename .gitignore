@@ -11,6 +11,9 @@ node_modules/
 
 # production
 /build
+/dist
+/dist-ssr
+*.local
 
 # misc
 .DS_Store
@@ -28,10 +31,6 @@ yarn-error.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-/dist
-/dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
