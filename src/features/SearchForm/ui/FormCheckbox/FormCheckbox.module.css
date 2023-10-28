@@ -39,7 +39,7 @@
 }
 
 .checkbox__input:checked + .checkbox__text::before {
-    background: url('./images/check-mark.svg') no-repeat center / 14px 14px;
+    background: url('./check-mark.svg') no-repeat center / 14px 14px;
     border: 1px solid rgb(0, 0, 0);
 }
 

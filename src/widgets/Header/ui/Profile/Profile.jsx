@@ -13,7 +13,7 @@ export function Profile() {
                 </button>
             </div>
             <div className={styles.avatar}>
-                <img src="./images/avatar.jpg" alt="avatar" />
+                <img src="./avatar.jpg" alt="avatar" />
             </div>
         </div>
     );

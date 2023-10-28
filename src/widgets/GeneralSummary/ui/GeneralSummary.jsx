@@ -31,7 +31,7 @@ export function GeneralSummary() {
                         <Swiper
                             modules={[Navigation]}
                             spaceBetween={0}
-                            slidesPerView={'auto'}
+                            slidesPerView={8}
                             navigation={{prevEl: `#button-prev-alt`, nextEl: `#button-next-alt`}}
                             scrollbar={{draggable: true}}
                         >

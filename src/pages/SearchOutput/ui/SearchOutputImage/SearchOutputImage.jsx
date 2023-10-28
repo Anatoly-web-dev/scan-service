@@ -4,7 +4,7 @@ import {AdaptiveImage} from '/src/shared';
 export function SearchOutputImage() {
     return (
         <div className={styles['search-output__image']}>
-            <AdaptiveImage src="./images/search-output-image.svg" alt="search-result" />
+            <AdaptiveImage src="./search-output-image.svg" alt="search-result" />
         </div>
     );
 }

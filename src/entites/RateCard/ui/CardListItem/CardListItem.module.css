@@ -18,7 +18,7 @@
     width: 20px;
     height: 20px;
     margin-top: -10px;
-    background-image: url('./images/check-mark.svg');
+    background-image: url('./check-mark.svg');
 }
 
 @media (max-width: 768px) {

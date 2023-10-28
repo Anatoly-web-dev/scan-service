@@ -4,7 +4,7 @@ import {AdaptiveImage} from '/src/shared';
 export function AuthorizationImage() {
     return (
         <div className={styles.authorization__image}>
-            <AdaptiveImage src="./images/auth-image.svg" alt="auth-image" />
+            <AdaptiveImage src="./auth-image.svg" alt="auth-image" />
         </div>
     );
 }

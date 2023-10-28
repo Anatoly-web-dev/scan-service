@@ -10,7 +10,7 @@
 
     opacity: 0.9;
 
-    background: url('/images/arrow-left.svg') no-repeat center / cover;
+    background: url('./arrow-left.svg') no-repeat center / cover;
     transition: opacity 1s linear;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .slider-button:hover {
-    background: url('./images/arrow-right-dark.svg') no-repeat center / cover;
+    background: url('./arrow-right-dark.svg') no-repeat center / cover;
     opacity: 1;
     transition: opacity 1s linear;
 }

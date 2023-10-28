@@ -21,7 +21,7 @@ export function DocumentsCard({data}) {
                 <CardСategory>{getCategory(data)}</CardСategory>
             </div>
             <div className={styles.card__body}>
-                <CardImage src="./images/search-output-card.svg" />
+                <CardImage src="./search-output-card.svg" />
                 <CardTextBlock document={xmlParser(data.content.markup)}></CardTextBlock>
             </div>
             <div className={styles.card__footer}>

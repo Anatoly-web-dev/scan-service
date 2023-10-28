@@ -17,7 +17,7 @@ export function Footer() {
                     smoothLink(e);
                     navigate('/');
                 }}
-                src="./images/footer-logo.svg"
+                src="./footer-logo.svg"
             />
             <div className={styles.body}>
                 <div className={styles.contacts}>

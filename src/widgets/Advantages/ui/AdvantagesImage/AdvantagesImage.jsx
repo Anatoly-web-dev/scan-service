@@ -4,7 +4,7 @@ import {AdaptiveImage} from '/src/shared';
 export function AdvantagesImage() {
     return (
         <div className={styles.advantages__image}>
-            <AdaptiveImage src="./images/advantages-image.svg" />
+            <AdaptiveImage src="./advantages-image.svg" />
         </div>
     );
 }

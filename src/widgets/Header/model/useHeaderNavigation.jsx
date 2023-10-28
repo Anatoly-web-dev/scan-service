@@ -19,7 +19,7 @@ export function useHeaderNavigation() {
         navigate('/');
     };
 
-    const getLogoImagePath = () => `./images/${context.burgerActive ? 'footer' : 'header'}-logo.svg`;
+    const getLogoImagePath = () => `./${context.burgerActive ? 'footer' : 'header'}-logo.svg`;
 
     return [context, handleLogo, handleMenuLink, getLogoImagePath];
 }

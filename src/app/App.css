@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'Ferry Black';
-    src: url(./fonts/ferry_black.otf);
+    src: url(./ferry_black.otf);
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'Inter Regular';
-    src: url(./fonts/Inter-Regular.ttf);
+    src: url(./Inter-Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Inter SemiBold';
-    src: url(./fonts/Inter-SemiBold.ttf);
+    src: url(./Inter-SemiBold.ttf);
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Inter Bold';
-    src: url(./fonts/Inter-Bold.ttf);
+    src: url(./Inter-Bold.ttf);
     font-weight: 700;
 }
 
@@ -119,6 +119,16 @@ img {
     height: 100%;
     /* Fix of Webkit flickering */
     z-index: 1;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    flex-basis: auto;
+    width: auto;
+    height: auto;
+    position: relative;
+    transition-property: transform;
+    display: block;
 }
 
 @media (max-width: 768px) {

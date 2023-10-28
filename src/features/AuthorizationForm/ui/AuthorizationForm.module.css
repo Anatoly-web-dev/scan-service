@@ -19,7 +19,7 @@
     width: 75.2px;
     height: 92px;
 
-    background: url('./images/padlock-icon.svg') no-repeat center / cover;
+    background: url('./padlock-icon.svg') no-repeat center / cover;
 }
 
 @media (max-width: 1100px) {

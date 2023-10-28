@@ -20,7 +20,7 @@
     width: 30px;
     height: 30px;
 
-    background: url('./images/back-arrow.svg') center / cover no-repeat;
+    background: url('./back-arrow.svg') center / cover no-repeat;
 
     transition: opacity 0.3s linear;
 }

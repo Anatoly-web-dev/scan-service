@@ -48,9 +48,9 @@ export function AuthorizationForm() {
                 Войти через:
             </Label>
             <FormRow mode="social">
-                <SocialLink href="#" src="./images/google-icon.svg" alt="google" />
-                <SocialLink href="#" src="./images/facebook-icon.svg" alt="facebook" />
-                <SocialLink href="#" src="./images/yandex-icon.svg" alt="yandex" />
+                <SocialLink href="#" src="./google-icon.svg" alt="google" />
+                <SocialLink href="#" src="./facebook-icon.svg" alt="facebook" />
+                <SocialLink href="#" src="./yandex-icon.svg" alt="yandex" />
             </FormRow>
         </form>
     );

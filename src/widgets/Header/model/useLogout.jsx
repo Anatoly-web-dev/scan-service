@@ -1,7 +1,6 @@
 import {useContext} from 'react';
 import {GlobalStates} from '/src/app/model/GlobalStatesProvider';
 import {useNavigate} from 'react-router-dom';
-import {removeFromStorage} from '/src/app/lib/removeFromStorage';
 
 export function useLogout() {
     const context = useContext(GlobalStates);
