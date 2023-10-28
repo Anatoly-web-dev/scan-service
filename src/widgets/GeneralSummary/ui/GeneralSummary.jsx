@@ -34,6 +34,11 @@ export function GeneralSummary() {
                             slidesPerView={8}
                             navigation={{prevEl: `#button-prev-alt`, nextEl: `#button-next-alt`}}
                             scrollbar={{draggable: true}}
+                            breakpoints={{
+                                375: {slidesPerView: 1},
+                                768: {slidesPerView: 3},
+                                1340: {slidesPerView: 8},
+                            }}
                         >
                             {searchResults &&
                                 searchResults.map((doc) => (
