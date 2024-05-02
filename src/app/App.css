@@ -113,7 +113,6 @@ img {
 .swiper {
     position: relative;
     overflow: hidden;
-    overflow: clip;
     list-style: none;
     width: 100%;
     height: 100%;
